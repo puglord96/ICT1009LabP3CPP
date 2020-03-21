@@ -1,0 +1,2 @@
+C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\Debug\ICT 1009 C++.exe
+C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\Debug\ICT 1009 C++.pdb
