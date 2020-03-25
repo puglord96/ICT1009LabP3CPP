@@ -40,14 +40,14 @@ int main(void)
 
     }
 
-    std::ifstream jsonFile("data.json");
+    ifstream jsonFile("data.json");
     nlohmann::json commands;
     jsonFile >> commands;
  
     nlohmann::json data = commands["data"];
     std::cout << "Number of items in Data: " << data.size() << std::endl;
 
-    json test = data[1];
+    json test = data[23];
 
     for (auto it = test.begin(); it != test.end(); ++it)
     {
