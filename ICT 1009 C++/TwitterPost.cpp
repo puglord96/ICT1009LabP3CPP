@@ -3,7 +3,7 @@
 #ifndef TPOST_H
 #define TPOST_H
 
-#include "TwittterPost.h"
+#include "TwitterPost.h"
 
 TwitterPost::TwitterPost(string title, int favcount, string uname, string postdate, int rtcount) : Post(title, favcount, uname, postdate) {
     RTCount = rtcount;

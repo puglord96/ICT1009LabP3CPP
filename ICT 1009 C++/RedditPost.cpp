@@ -5,10 +5,9 @@
 
 #include "RedditPost.h"
 
-RedditPost::RedditPost(string title, int likecount, string uname, string postdate, string postsub, string postlink, int postcommentcount) : Post(title, likecount, uname, postdate) {
+RedditPost::RedditPost(string title, int likecount, string uname, string postdate, string postsub, string postlink) : Post(title, likecount, uname, postdate) {
     p_subreddit = postsub;
     p_link = postlink;
-    p_commentcount = postcommentcount;
 }
 
 string RedditPost::getPostSubreddit()

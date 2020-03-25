@@ -32,10 +32,10 @@
     <ClInclude Include="post.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RedditPost.h">
+    <ClInclude Include="TwitterPost.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TwitterPost.h">
+    <ClInclude Include="RedditPost.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

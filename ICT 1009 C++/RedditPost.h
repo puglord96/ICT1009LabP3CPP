@@ -14,7 +14,7 @@ private:
     // list for comments?
 
 public:
-    RedditPost(string, int, string, string, string, string, int);    // postContent, likeCount, username, postDate, subreddit, link, commentcount
+    RedditPost(string, int, string, string, string, string);    // postContent, likeCount, username, postDate, subreddit, link, commentcount
     string getPostSubreddit();
     int getPostCommentCount();
     string getPostLink();
