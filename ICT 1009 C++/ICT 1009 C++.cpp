@@ -45,13 +45,20 @@ int main(void)
     jsonFile >> commands;
  
     nlohmann::json data = commands["data"];
-    std::cout << "Number of items in Data: " << data.size() << std::endl;
+    //std::cout << "Number of items in Data: " << data.size() << std::endl;
 
-    json test = data[23];
+    //json test = data[5];
 
-    for (auto it = test.begin(); it != test.end(); ++it)
+    //cout << test["created_utc"];
+
+    /*for (auto it = test.begin(); it != test.end(); ++it)
     {
+        
         std::cout << it.key() << ": " << it.value() << std::endl;
-    }
+        
+        if(it.key() == "created_utc"){
+            cout << "Date: " << it.value() << endl;
+        }
+    }*/
     return 0;
 }
