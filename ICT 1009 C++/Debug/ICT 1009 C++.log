@@ -1,9 +1,6 @@
 ﻿  ICT 1009 C++.cpp
-C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\ICT 1009 C++.cpp(16,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\ICT 1009 C++.cpp(26,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
 C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\ICT 1009 C++.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
-C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\ICT 1009 C++.cpp(73,22): warning C4018: '<': signed/unsigned mismatch
-  post.cpp
-  RedditPost.cpp
-  TwitterPost.cpp
-  Generating Code...
+C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\ICT 1009 C++.cpp(102,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\ICT 1009 C++.cpp(186,22): warning C4018: '<': signed/unsigned mismatch
   ICT 1009 C++.vcxproj -> C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\Debug\ICT 1009 C++.exe

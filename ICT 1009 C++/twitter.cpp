@@ -1,6 +1,5 @@
 #pragma once
 
-#include <iostream>
 #include <string>
 #include <sstream>
 #include <algorithm>
@@ -11,9 +10,8 @@
 #include <regex>
 #include <cctype>
 
-#include "cpprest/http_client.h"
-#include "cpprest/asyncrt_utils.h"
-#include "cpprest/oauth1.h"
+#include <cpprest/http_client.h>
+#include <cpprest/filestream.h>
 #include "json/json.h"
 #include "TwitterPost.h"
 
@@ -124,5 +122,4 @@ void twitterCrawler::printTweets() {
 		cout << *tweetList_iterator << endl;
 	}
 }
-
 
