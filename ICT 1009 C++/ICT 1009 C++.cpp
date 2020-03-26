@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <fstream>
 #include <string>
-#include <date/date.h>
 #include <curl/curl.h>
 #include <nlohmann/json.hpp>
 #include <ctime>
@@ -91,6 +90,9 @@ int main(void)
        //Insert object into vector
        redditposts.insert(redditposts.begin(), post);
     
+       for (vector<RedditPost>::iterator r_ite = redditposts.begin(); r_ite != redditposts.end(); r_ite++) {
+           cout << *r_ite << endl;
+       }
     }
 
 

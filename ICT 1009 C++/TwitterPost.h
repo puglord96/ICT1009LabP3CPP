@@ -7,6 +7,7 @@
 using namespace std;
 
 class TwitterPost : public Post {
+    friend ostream& operator<<(ostream&, const TwitterPost&);
 private:
     int RTCount;
 

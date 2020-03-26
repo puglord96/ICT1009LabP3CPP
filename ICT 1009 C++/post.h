@@ -6,7 +6,7 @@ using namespace std;
 
 class Post
 {
-private:
+protected:
     string postContent;
     int likeCount;
     string username;
