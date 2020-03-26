@@ -15,14 +15,20 @@ string RedditPost::getPostSubreddit()
     return p_subreddit;
 }
 
-int RedditPost::getPostCommentCount()
-{
-    return p_commentcount;
-}
-
 string RedditPost::getPostLink()
 {
     return p_link;
+}
+
+ostream& operator<<(ostream& out, const RedditPost& rp)
+{
+	out << "Post: " << rp.postContent << endl;
+	out << "Posted by: " << rp.username << endl;
+	out << "Posted on: " << rp.postDate << endl;
+	out << "Upvote Count: " << rp.likeCount << endl;
+	out << "Posted to: " << rp.p_subreddit << endl;
+	out << endl;
+	return out;
 }
 
 #endif
