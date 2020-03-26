@@ -156,6 +156,7 @@
     <ClCompile Include="post.cpp" />
     <ClCompile Include="RedditPost.cpp" />
     <ClCompile Include="TwitterPost.cpp" />
+    <ClCompile Include="Twittertest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="post.h" />

@@ -7,8 +7,9 @@
 #include <curl/curl.h>
 #include <nlohmann/json.hpp>
 #include <ctime>
-#include "RedditPost.h"
 
+#include "RedditPost.h"
+#include "Twittertest.cpp"
 
 
 //RedditPost redditposts[];
@@ -93,6 +94,11 @@ int main(void)
        for (vector<RedditPost>::iterator r_ite = redditposts.begin(); r_ite != redditposts.end(); r_ite++) {
            cout << *r_ite << endl;
        }
+
+      
+
+
+      
     }
 
 
