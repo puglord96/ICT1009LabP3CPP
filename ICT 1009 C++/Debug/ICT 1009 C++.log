@@ -1,10 +1,9 @@
-﻿  twitter.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\Juve Wong\OneDrive\SIT\Year 1\C++\Assignment\cppsdk_test\cppsdk_test\twitter.cpp': No such file or directory
-  ICT 1009 C++.cpp
-C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\Twittertest.cpp(89,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\ICT 1009 C++.cpp(17,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+﻿  ICT 1009 C++.cpp
+C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\ICT 1009 C++.cpp(16,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
 C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\ICT 1009 C++.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
-C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\ICT 1009 C++.cpp(74,22): warning C4018: '<': signed/unsigned mismatch
-  Twittertest.cpp
-C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\Twittertest.cpp(89,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\ICT 1009 C++.cpp(73,22): warning C4018: '<': signed/unsigned mismatch
+  post.cpp
+  RedditPost.cpp
+  TwitterPost.cpp
   Generating Code...
+  ICT 1009 C++.vcxproj -> C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\Debug\ICT 1009 C++.exe

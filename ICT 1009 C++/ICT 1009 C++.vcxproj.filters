@@ -27,12 +27,6 @@
     <ClCompile Include="TwitterPost.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Juve Wong\OneDrive\SIT\Year 1\C++\Assignment\cppsdk_test\cppsdk_test\twitter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Twittertest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="post.h">

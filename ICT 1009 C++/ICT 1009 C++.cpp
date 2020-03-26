@@ -9,7 +9,6 @@
 #include <ctime>
 
 #include "RedditPost.h"
-#include "Twittertest.cpp"
 
 
 //RedditPost redditposts[];

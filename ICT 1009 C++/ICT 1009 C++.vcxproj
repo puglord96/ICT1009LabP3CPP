@@ -151,12 +151,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Juve Wong\OneDrive\SIT\Year 1\C++\Assignment\cppsdk_test\cppsdk_test\twitter.cpp" />
     <ClCompile Include="ICT 1009 C++.cpp" />
     <ClCompile Include="post.cpp" />
     <ClCompile Include="RedditPost.cpp" />
     <ClCompile Include="TwitterPost.cpp" />
-    <ClCompile Include="Twittertest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="post.h" />
