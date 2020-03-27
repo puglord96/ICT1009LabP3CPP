@@ -4,5 +4,3 @@ C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\Debug\ICT 
 C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\Debug\cpprest_2_10d.dll
 C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\Debug\libcurl-d.dll
 C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\Debug\zlibd1.dll
-C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\Debug\ICT 1009 C++.exe.lastcodeanalysissucceeded
-C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\Debug\NativeCodeAnalysis.read.1.tlog

@@ -144,88 +144,106 @@ static size_t WriteCallback(void* contents, size_t size, size_t nmemb, void* use
     return size * nmemb;
 }
 
+
 int main(void)
 {
     CURL* curl;
     CURLcode res;
-    string readBuffer;
+    string readBuffer,redditCurlURL;
     ofstream myfile;
 
-    curl = curl_easy_init();
-    if (curl) {
-        //Curl is being used to get the html contents from the URL
-        curl_easy_setopt(curl, CURLOPT_URL, "https://api.pushshift.io/reddit/search/comment/?q=kobe%20bryant&size=50");
-        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
-        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &readBuffer);
-        res = curl_easy_perform(curl);
-        curl_easy_cleanup(curl);
 
-
-        //Contents extracted from curl is outputted into a JSON file
-        ofstream file("data.json");
-        file << readBuffer;
-        file.close();
-
-    }
-
-
-    //Contents from json file is extracted and fed into the nholmann::json commands
-    ifstream jsonFile("data.json");
-    json commands;
-    jsonFile >> commands;
- 
-    //data is the array which contains the content found in the json
-    json data = commands["data"];
-
+    //Query vector contains substring of the query string of the Reddit Crawler API
+    vector<string> query;
+    query.push_back("?q=kobe%20bryant&size=50");
+    query.push_back("?q=mambacita&size=50");
+    query.push_back("?q=gianna%20bryant&size=50");
 
     // redditposts vector is used to store all the RedditPost objects generated
     vector<RedditPost> redditposts = {};
- 
 
-    //loop through the whole data array and extract all the relevant information to create the RedditPost objects
-   for (int i = 0; i < data.size();i++) {
+    for (auto&& querySub : query) {
 
-       time_t t = data[i]["created_utc"];
-
+        //URL of Reddit Crawler API
+        redditCurlURL = "https://api.pushshift.io/reddit/search/comment/" + querySub;
 
 
-       string title = data[i]["body"];
-       int likecount = data[i]["score"];
-       string uname = data[i]["author"];
-       string postdate = ctime(&t);
-       string postsub = data[i]["subreddit"];
-       string postlink = data[i]["permalink"];
+        curl = curl_easy_init();
+        if (curl) {
+            //Curl is being used to get the html contents from the URL
+            curl_easy_setopt(curl, CURLOPT_URL, redditCurlURL.c_str());
+            curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+            curl_easy_setopt(curl, CURLOPT_WRITEDATA, &readBuffer);
+            res = curl_easy_perform(curl);
+            curl_easy_cleanup(curl);
 
 
-       //Create RedditPost object
-       RedditPost post(title, likecount, uname, postdate, postsub, postlink);
+            //Contents extracted from curl is outputted into a JSON file
+            ofstream file("data.json");
+            file << readBuffer;
+            file.close();
 
-       //Insert object into vector
-       redditposts.insert(redditposts.begin(), post);
-    
-       for (vector<RedditPost>::iterator r_ite = redditposts.begin(); r_ite != redditposts.end(); r_ite++) {
-           //cout << *r_ite << endl;
-       }
-
-     
-          twitterCrawler t_crawl;
-
-           t_crawl.crawl("kobe%20bryant");
-
-           vector<TwitterPost> tlist = t_crawl.getTweets();
-
-           t_crawl.printTweets();
-
-           for (vector<TwitterPost>::iterator tweetList_ptr = tlist.begin(); tweetList_ptr < tlist.end(); tweetList_ptr++) {
-               cout << *tweetList_ptr << endl;
-           }
-
-      
+        }
 
 
-      
+        //Contents from json file is extracted and fed into the nholmann::json commands
+        ifstream jsonFile("data.json");
+        json commands;
+        jsonFile >> commands;
+
+        //data is the array which contains the content found in the json
+        json data = commands["data"];
+
+
+        
+
+
+        //loop through the whole data array and extract all the relevant information to create the RedditPost objects
+        for (int i = 0; i < data.size(); i++) {
+
+            time_t t = data[i]["created_utc"];
+
+
+
+            string title = data[i]["body"];
+            int likecount = data[i]["score"];
+            string uname = data[i]["author"];
+            string postdate = ctime(&t);
+            string postsub = data[i]["subreddit"];
+            string postlink = data[i]["permalink"];
+
+
+            //Create RedditPost object
+            RedditPost post(title, likecount, uname, postdate, postsub, postlink);
+
+            //Insert object into vector
+            redditposts.insert(redditposts.begin(), post);
+
+
+
+            /*twitterCrawler t_crawl;
+
+             t_crawl.crawl("kobe%20bryant");
+
+             vector<TwitterPost> tlist = t_crawl.getTweets();
+
+             t_crawl.printTweets();
+
+             for (vector<TwitterPost>::iterator tweetList_ptr = tlist.begin(); tweetList_ptr < tlist.end(); tweetList_ptr++) {
+                 cout << *tweetList_ptr << endl;
+             }*/
+
+        }
+
     }
 
+
+
+   for (vector<RedditPost>::iterator r_ite = redditposts.begin(); r_ite != redditposts.end(); r_ite++) {
+       cout << *r_ite << endl;
+   }
+
+   cout << redditposts.size();
 
     return 0;
 }
