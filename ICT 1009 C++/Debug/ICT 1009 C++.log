@@ -3,4 +3,19 @@ C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\ICT 1009 C
 C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\ICT 1009 C++.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
 C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\ICT 1009 C++.cpp(102,23): warning C4018: '<': signed/unsigned mismatch
 C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\ICT 1009 C++.cpp(186,22): warning C4018: '<': signed/unsigned mismatch
+  post.cpp
+  RedditPost.cpp
+  TwitterPost.cpp
+  Compiling...
+  Generating Code...
   ICT 1009 C++.vcxproj -> C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\Debug\ICT 1009 C++.exe
+C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\cpprest\details\SafeInt3.hpp(668): warning C26812: The enum type 'msl::safeint3::SafeIntError' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\cpprest\details\web_utilities.h(44): warning C26495: Variable 'web::details::win32_encryption::m_numCharacters' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\cpprest\details\web_utilities.h(156): warning C26812: The enum type 'web::web_proxy::web_proxy_mode_internal' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\cpprest\details\web_utilities.h(162): warning C26812: The enum type 'web::web_proxy::web_proxy_mode' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\cpprest\http_headers.h(157): warning C26439: This kind of function may not throw. Declare it 'noexcept' (f.6).
+C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\cpprest\http_headers.h(163): warning C26439: This kind of function may not throw. Declare it 'noexcept' (f.6).
+C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\cpprest\json.h(694): warning C26812: The enum type 'web::json::value::value_type' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\cpprest\json.h(1200): warning C26812: The enum type 'web::json::number::type' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\ICT 1009 C++.cpp(150): warning C26812: The enum type 'CURLcode' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\Wong Kin Seong\Documents\GitHub\vcpkg\installed\x86-windows\include\nlohmann\json.hpp(14549): warning C28020: The expression '0<=_Param_(1)&&_Param_(1)<=400-1' is not true at this call.

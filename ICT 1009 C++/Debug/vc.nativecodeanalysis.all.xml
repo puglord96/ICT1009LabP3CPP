@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\cpprest\details\</FILEPATH>
+      <FILENAME>SafeInt3.hpp</FILENAME>
+      <LINE>668</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'msl::safeint3::SafeIntError' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>msl::safeint3::SafeIntException::{ctor}</FUNCTION>
+    <DECORATED>??0SafeIntException@safeint3@msl@@QAE@XZ</DECORATED>
+    <FUNCLINE>668</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\cpprest\details\</FILEPATH>
+      <FILENAME>web_utilities.h</FILENAME>
+      <LINE>44</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'web::details::win32_encryption::m_numCharacters' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>web::details::win32_encryption::{ctor}</FUNCTION>
+    <DECORATED>??0win32_encryption@details@web@@QAE@XZ</DECORATED>
+    <FUNCLINE>44</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>web::details::win32_encryption::m_numCharacters</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\cpprest\details\</FILEPATH>
+      <FILENAME>web_utilities.h</FILENAME>
+      <LINE>156</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'web::web_proxy::web_proxy_mode_internal' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>web::web_proxy::{ctor}</FUNCTION>
+    <DECORATED>??0web_proxy@web@@QAE@XZ</DECORATED>
+    <FUNCLINE>156</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\cpprest\details\</FILEPATH>
+      <FILENAME>web_utilities.h</FILENAME>
+      <LINE>162</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'web::web_proxy::web_proxy_mode' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>web::web_proxy::{ctor}</FUNCTION>
+    <DECORATED>??0web_proxy@web@@QAE@W4web_proxy_mode@01@@Z</DECORATED>
+    <FUNCLINE>162</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\cpprest\</FILEPATH>
+      <FILENAME>http_headers.h</FILENAME>
+      <LINE>157</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>web::http::http_headers::{ctor}</FUNCTION>
+    <DECORATED>??0http_headers@http@web@@QAE@$$QAV012@@Z</DECORATED>
+    <FUNCLINE>157</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\cpprest\</FILEPATH>
+      <FILENAME>http_headers.h</FILENAME>
+      <LINE>163</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>web::http::http_headers::=</FUNCTION>
+    <DECORATED>??4http_headers@http@web@@QAEAAV012@$$QAV012@@Z</DECORATED>
+    <FUNCLINE>163</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\cpprest\</FILEPATH>
+      <FILENAME>json.h</FILENAME>
+      <LINE>694</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'web::json::value::value_type' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>web::json::value::{ctor}</FUNCTION>
+    <DECORATED>??0value@json@web@@AAE@V?$unique_ptr@V_Value@details@json@web@@U?$default_delete@V_Value@details@json@web@@@std@@@std@@W4value_type@012@@Z</DECORATED>
+    <FUNCLINE>694</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\cpprest\</FILEPATH>
+      <FILENAME>json.h</FILENAME>
+      <LINE>1200</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'web::json::number::type' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>web::json::number::{ctor}</FUNCTION>
+    <DECORATED>??0number@json@web@@AAE@N@Z</DECORATED>
+    <FUNCLINE>1200</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Wong Kin Seong\Documents\GitHub\ICT1009LabP3CPP\ICT 1009 C++\</FILEPATH>
+      <FILENAME>ICT 1009 C++.cpp</FILENAME>
+      <LINE>150</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'CURLcode' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>147</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Wong Kin Seong\Documents\GitHub\vcpkg\installed\x86-windows\include\nlohmann\</FILEPATH>
+      <FILENAME>json.hpp</FILENAME>
+      <LINE>14549</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>28020</DEFECTCODE>
+    <DESCRIPTION>The expression '0&lt;=_Param_(1)&amp;&amp;_Param_(1)&lt;=400-1' is not true at this call.</DESCRIPTION>
+    <FUNCTION>nlohmann::detail::serializer&lt;nlohmann::basic_json&lt;std::map,std::vector,std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer&gt; &gt;::decode</FUNCTION>
+    <DECORATED>?decode@?$serializer@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@@nlohmann@@@detail@nlohmann@@CAEAAEAAIE@Z</DECORATED>
+    <FUNCLINE>14527</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\wong kin seong\documents\github\vcpkg\installed\x86-windows\include\nlohmann\</FILEPATH>
+        <FILENAME>json.hpp</FILENAME>
+        <LINE>14529</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\wong kin seong\documents\github\vcpkg\installed\x86-windows\include\nlohmann\</FILEPATH>
+        <FILENAME>json.hpp</FILENAME>
+        <LINE>14549</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>
