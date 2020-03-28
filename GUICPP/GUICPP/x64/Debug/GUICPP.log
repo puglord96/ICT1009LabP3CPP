@@ -1,0 +1,5 @@
+﻿  uic GUICPP.ui
+  GUICPP.cpp
+  main.cpp
+  moc_GUICPP.cpp
+  GUICPP.vcxproj -> C:\Users\eddyi\source\repos\GUICPP\x64\Debug\GUICPP.exe
